@@ -1,0 +1,56 @@
+header, footer, main{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+body{
+    color: #2f2f2f;
+
+}
+
+header{
+    background-color: #e2e2e2;
+    color: #2f2f2f;
+}
+
+h1, h2, p, a, ul{
+    font-family: "Inter", sans-serif;
+}
+
+h1, h2{
+    font-weight: 600
+
+}
+
+h2{
+    font-size: 20pt;
+}
+
+p{
+    font-size: 12pt;
+    line-height: 1.4em;
+}
+
+ul{
+    line-height: 2em;
+}
+
+a{
+    color:blueviolet;
+}
+
+a:hover{
+    color: fuchsia;
+}
+
+
+footer{
+    background-color: #2f2f2f;
+    color: white;
+}
+
+.border-blue{
+    border:2px dashed grey;
+}
