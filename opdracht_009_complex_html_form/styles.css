@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+}
+
+body{
+    color: #2f2f2f;
+
+}
+
+header{
+    background-color: #e2e2e2;
+    color: #2f2f2f;
+}
+
+h1, h2, p, a, ul{
+    font-family: "Inter", sans-serif;
+}
+
+h1, h2{
+    font-weight: 600
+
+}
+
+h1{
+    font-size: 35pt;
+}
+
+h2{
+    font-size: 20pt;
+}
+
+p{
+    font-size: 14pt;
+    line-height: 1.4em;
+}
+
+ul{
+    line-height: 2em;
+}
+
+a{
+    color:blueviolet;
+    text-decoration: none;
+}
+
+a:hover{
+    color: fuchsia;
+}
+
+
+footer{
+    background-color: #2f2f2f;
+    color: white;
+}
+
+.border-blue{
+    border:2px dashed grey;
+}
+
+.box-1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 25px;
+    margin-left: 24px;
+
+    padding-top: 25px;
+    padding-bottom: 26px;
+    padding-right: 20px;
+    padding-left: 19px;
+
+    border: 2px solid grey;
+}
+
+.box-1 h1{
+    margin-bottom: 15px;
+}
+
+.box-2{
+    margin-top: 40px;
+    margin-right: 25px;
+    margin-left: 25px;
+
+    background-color: #eee;
+    
+    padding: 25px 20px 26px 19px;
+
+    border: 2px solid grey;
+}
+
+.box-2 h2{
+    margin-bottom: 15px;
+}
+
+.box-3{
+    margin: 20px 25px 30px 24px;
+    
+    padding: 25px 20px 26px 19px;
+
+    border: 2px solid grey;
+}
+
+.box-3 h2{
+    margin-bottom: 15px;
+}
+
+.navigation{
+    list-style-type: none;
+    padding: 15px;
+    margin: 10px;
+}
+
+.navigation li{
+    display: inline;
+    float: left;
+}
+
+.navigation a{
+    display: inline;
+    padding: 10px;
+    background-color: #2f2f2f;
+    margin-right: 5px;
+}
+
+.navigation ul{
+    background-color: #2f2f2f;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 400px) {
+    body{
+        background-color: #eee;
+    }
+
+    h1{
+        font-size: 25pt;
+    }
+
+    p{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body{
+        background-color: #333;
+    }
+
+    p{
+        font-size: 16pt;
+        line-height: 1.5em;
+    }
+
+    h1{
+        font-size: 30pt;
+        color: white;
+    }
+
+    h2{
+        color: violet;
+    }
+
+    li{
+        color: white;
+        font-size: 16pt;
+        line-height: 2em;
+    
+    }
+
+    .box-1{
+        background-color: #333;
+    }
+
+    .box-2{
+        background-color: #333;
+    }
+}

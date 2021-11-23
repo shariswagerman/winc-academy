@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- hier zet je de code in de head tags -->
+  <title> CSS Basics </title>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+  <style>
+    body {
+      font-family: "Sofia", sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- hier zet je de code in de body tags-->
+  <header class="box-1">
+    <h1>Hallo, mijn naam is Shari</h1>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Over mij</a></li>
+      <li><a href="form.html">Formulier</a></li>
+    </ul>
+  </nav>
+  <main class="box-2">
+    <h2>Beantwoord deze vragen</h2>
+    <form name="contact" data-netlify="true">
+      <label> Name: <input type="text" name="Naam"></label>
+      <br>
+      <br>
+      <label> Email: <input type="email" name="E-mail"></label>
+      <br>
+      <br>
+      <label> Phone: <input type="tel" name="Phone"></label>
+      <br>
+      <br>
+      <label> Age: <input type="text" name="Age"></label>
+      <br>
+      <br>
+      <label> Date of birth: <input type="date" name="birthddate"></label>
+      <br>
+      <br>
+      <label>Gender: <input type="radio" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="other">
+        <label for="female">Other</label></label>
+      <br>
+      <br>
+      <label> Favorite cuisine: <input type="checkbox" name="cuisine" value="french">
+        <label for="french">French</label>
+        <input type="checkbox" name="cuisine" value="italian">
+        <label for="italian">Italian</label>
+        <input type="checkbox" name="cuisine" value="spanish">
+        <label for="spanish">Spanish</label>
+        <input type="checkbox" name="cuisine" value="arabic">
+        <label for="arabic">Arabic</label></label>
+      <br>
+      <br>
+      <label>Favorite apron color: <input type="color"></label>
+      <br>
+      <br>
+      <label for="bio">Biography: </label>
+      <br>
+      <textarea name="bio" rows="10" cols="65">
+        </textarea>
+      <br>
+      <br>
+      <label for="recipe">Upload your latest recipe:</label>
+      <br>
+      <input type="file" name="recipe">
+      <br>
+      <br>
+      <label for="website">URL to recipe website:</label>
+      <br>
+      <input type="url" name="website">
+      <br>
+      <br>
+      <input type="reset" value="Reset"> <input type="submit" value="Submit">
+    </form>
+  </main>
+
+  <footer class="box-3">
+    <h2>Meer info</h2>
+    <p>Meer weten over mij? <a href="about.html">Klik hier.</a></p>
+  </footer>
+</body>
+
+</html>
